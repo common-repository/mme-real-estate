@@ -1,0 +1,57 @@
+
+.grid-container > div{
+  min-height: 64px;
+}
+.potenciado hr {
+  margin-top: 2em;
+}
+
+.configurar-home hr {
+  margin: 1rem 0 0;
+}
+
+#powered-by-mme {
+  text-align: right;
+  line-height: 1;
+}
+
+#powered-by-mme a {
+  text-decoration: none;
+}
+
+#powered-by-mme img {
+  float: right;
+  margin: 0 0 0 6px;
+  max-width: 28px;
+}
+
+#mme-dashboard-setup .fastlinks .main-btn {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+  height: 4rem;
+}
+
+#mme-dashboard-setup .fastlinks .main-btn span {
+  display: block;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 6px;
+}
+
+#wpbody .dashicons, #wpbody .dashicons-before:before {
+  width: auto;
+  height: auto;
+  font-size: 2em;
+}
+
+label {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.conf-gral input[type="number"], .conf-gral input[type="text"], .conf-gral select {
+  width: 100%;
+}

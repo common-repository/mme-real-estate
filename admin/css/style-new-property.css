@@ -1,0 +1,79 @@
+.row {
+	display: block;
+	overflow: hidden;
+}
+
+.row .col-25 {
+	display: inline;
+	width: 25%;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.row .col-33 {
+	display: inline;
+	width: 33.3%;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.row .col-50 {
+	display: inline;
+	width: 50%;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.row .col-100 {
+	display: inline;
+	width: 100%;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.row>div .content-col {
+	padding: 0 7px 0 7px;
+}
+
+.row>div:first-child .content-col {
+	padding: 0 7px 0 14px;
+}
+
+.row>div:last-child .content-col {
+	padding: 0 14px 0 7px;
+}
+
+.row .col-100 .content-col {
+	padding: 0 14px 0 14px!important;
+}
+
+.row label {
+	display: block;
+}
+
+.row input, .row textarea, .row select {
+	display: block;
+	width: 100%;
+}
+
+@media (max-width: 950px) {
+	.row .col-33, .row .col-25 {
+		width: 50%;
+	}
+	.row>div .content-col {
+		padding: 0 8px 0 8px;
+	}
+	.row>div:first-child .content-col {
+		padding: 0 8px 0 8px;
+	}
+	.row>div:last-child .content-col {
+		padding: 0 8px 0 8px;
+	}
+	.row .col-100 .content-col {
+		padding: 0 8px 0 8px!important;
+	}
+}
+
+.moneda {
+	text-align: right;
+}
